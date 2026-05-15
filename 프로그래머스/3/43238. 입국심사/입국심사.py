@@ -10,12 +10,11 @@ def solution(n, times):
     
         if n <= people:
             end = mid
-            answer = mid
         
         elif n > people:
             start = mid + 1
             
-    return answer
+    return end
             
             
         
